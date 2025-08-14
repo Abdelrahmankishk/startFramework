@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg py-3 fixed-top" [class.py-4]="isTop">
+  <div class="container text-uppercase">
+    <a class="page-title" routerLink="/main">Start Framework</a>
+    <div class="d-flex justify-content-end">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav justfy-content-end">
+          <li class="nav-item p-2 pe-3">
+            <a
+              routerLink="/about"
+              routerLinkActive="nav-style rounded"
+              aria-current="page"
+              >About</a
+            >
+          </li>
+          <li class="nav-item p-2 pe-4">
+            <a routerLink="/portfolio" routerLinkActive="nav-style rounded"
+              >Portfolio</a
+            >
+          </li>
+          <li class="p-2 pe-4">
+            <a routerLink="/contact" routerLinkActive="nav-style rounded "
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>

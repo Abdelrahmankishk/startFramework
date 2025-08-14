@@ -1,0 +1,26 @@
+section {
+  background-color: #1abc9c;
+  padding: 85px 0;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+  width: 250px;
+}
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
+.line {
+  width: 80px;
+  height: 4px;
+  background-color: white;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.star {
+  margin: 0px 15px;
+  font-size: 16px;
+}

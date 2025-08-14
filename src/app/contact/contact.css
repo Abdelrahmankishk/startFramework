@@ -1,0 +1,45 @@
+label {
+  position: absolute;
+  bottom: 30px;
+  color: #1abc9c;
+  font-size: 16px;
+  transition: 0.3s ease;
+  opacity: 1;
+  margin-bottom: 7px;
+}
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.input-styling.active label {
+  top: -10px;
+  font-size: 12px;
+  opacity: 1;
+}
+.button-color {
+  background-color: #1abc9c;
+  color: white;
+}
+.line {
+  width: 80px;
+  height: 4px;
+  background-color: #2c3e50;
+  display: inline-block;
+  margin-bottom: 4px;
+  color: #2c3e50;
+}
+
+.star {
+  margin: 0px 15px;
+  font-size: 16px;
+}
+form {
+  margin-top: 100px;
+}
+h2 {
+  color: #2c3e50;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+}
